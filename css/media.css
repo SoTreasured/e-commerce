@@ -1,21 +1,31 @@
-@media screen and (max-width: 1057px){
+@media only screen and (max-width: 999px){
     body{
-        font-size: large;
+        font-size: 18px;
+    }
+    div.wrapper{
+        width: 400px;
     }
 
-    ul.links {
-        width: 75%;   
+    header nav ul li a{
+       margin-left: 8px;
+       margin-right: 10px;
     }
-}
 
-@media screen and (max-width: 600px){
-    body{
-        font-size:xx-large;
+    .search::placeholder{
+        font-size: 150px;
     }
-}
 
-@media screen and (min-width: 310px){
-    body{
-        font-size: large;
+    div.link2{
+        display: none;
+    }
+
+    hr.hr{
+        display: none;
+    }
+} 
+
+@media only screen and (min-width: 280px) and (max-width:426px){
+    input.searchbar{
+        width:200%
     }
 }
