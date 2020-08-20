@@ -1,0 +1,175 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    font-family: 'Josefin Slab', serif;
+}
+
+body::-webkit-scrollbar{
+    width:0.5rem;
+}
+
+body::-webkit-scrollbar-track{
+    background: black;
+}
+body::-webkit-scrollbar-thumb{
+    background:rgb(148,134,11) ;
+}
+
+
+
+header.head{
+ background-color: rgb(148,134,11);
+ position: fixed;
+ width: 100%;
+ -webkit-box-shadow: 0px 11px 43px 5px rgba(250,247,249,1);
+ -moz-box-shadow: 0px 11px 40px 5px rgba(250,247,249,1);
+ box-shadow: 0px 1px 30px 3px rgba(250,247,249,1);
+ 
+}
+
+nav.linkbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+ul.links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin-left: 20px;
+    list-style-type: none;
+    
+}
+
+ul.links div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+}
+
+ul li a{
+    color: white;
+    text-decoration:none ;
+}
+
+ul li a:hover{
+    color:rgb(214, 226, 103);
+    font-weight: bold;
+    
+}
+
+div.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.wrapper{
+    
+    width: 600px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-radius: 8px;
+}
+input.searchbar{
+
+    height: 30px;
+    width: 600px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: #d9dddd;
+    position: relative;
+    padding-left: 10px;
+    
+    
+}
+
+input.searchbar:focus{
+    outline: none;
+}
+
+#search{
+    color:white;
+    position: absolute;
+    margin-left: -40px;
+    margin-top: -9px;
+}
+
+
+
+#cart{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    
+}
+section.title{
+    background-color:rgb(148,134,11);
+    padding: 6px ;
+}
+
+section h3{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-weight: lighter;
+    font-family: 'Ruslan Display', cursive;
+    transition: all 2s ease-in-out;
+    text-shadow: 2px 2px 2px black, 2px 3px 4px yellow;
+    padding-top: 30px;
+    margin-bottom: 0px;
+
+}
+
+section h3 span{
+    color: gray;
+}
+
+hr.hr{
+    width: 60%;
+    
+}
+
+ul.link2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+ul.link2 li {
+    font-weight: 200;
+    list-style-type: none;
+}
+section.bg-section{
+    background: linear-gradient(rgba(214, 204, 204, 0.1), rgba(212, 211, 203, 0.1)), url(../images/shoe4.jpeg) no-repeat no-repeat center center;
+    background-size:cover;
+    padding-top: 160px;
+    padding-bottom: 160px;
+
+}
+
+section.bg-section div {
+    
+    margin-left : 140px;
+    padding: 10px 10px;
+    width: 200px;
+   
+    border-radius: 10px;
+    
+}
+
+
+
+section.bg-section div h4{
+    font-size: 25px;
+    line-height: 30px;
+    text-align:center;
+    color: /*rgb(219, 212, 197)*/rgb(26, 23, 23);
+    text-shadow: 2px 3px 4px white;
+}

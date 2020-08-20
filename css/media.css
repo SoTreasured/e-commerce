@@ -1,0 +1,21 @@
+@media screen and (max-width: 1057px){
+    body{
+        font-size: large;
+    }
+
+    ul.links {
+        width: 75%;   
+    }
+}
+
+@media screen and (max-width: 600px){
+    body{
+        font-size:xx-large;
+    }
+}
+
+@media screen and (min-width: 310px){
+    body{
+        font-size: large;
+    }
+}
