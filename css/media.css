@@ -36,4 +36,24 @@
     div.line1{
         flex-direction: column;
     }
+
+    footer{
+        
+    }
+
+    footer > div.bottom{
+        visibility: hidden;
+        display: none;
+    }
+
+    footer > div.top{
+        display: block;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    footer p.center{
+        background-color: red;
+    }
 }
+

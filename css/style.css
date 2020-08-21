@@ -244,4 +244,50 @@ div.price > p > span{
     text-shadow: 3px 0px 4px black;
 } 
 
+footer{
+ background-color: rgb(148,134,11);
+ color:white;
+ padding-bottom: 20px;
+}
 
+
+h3.footlogo{
+    color: white;
+    font-size: 25px;
+    font-family: 'Ruslan Display', cursive;
+    text-shadow: 2px 2px 2px black, 2px 3px 4px yellow;
+    
+}
+
+h3.footlogo span{
+    color: gray;
+}
+
+div.top{
+    display: flex;
+    justify-content: space-around;
+}
+
+h3.footlogo{
+    visibility: hidden;
+}
+
+div.top > div  {
+    padding-top: 15px;
+    
+}
+
+div.bottom{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+div.bottom div p{
+    line-height: 5px;
+    letter-spacing: normal;
+}
+
+ p.center{
+    text-align: center;
+}
