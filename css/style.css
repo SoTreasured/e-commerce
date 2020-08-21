@@ -3,10 +3,12 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: white;
     font-family: 'Playfair Display', serif;
-    background-color: rgb(208, 211, 212);
+    background: linear-gradient(to right bottom, rgba(31, 31, 30, 0.7), rgba(26, 25, 25, 0.7),rgba(44, 44, 42, 0.7)), url(../images/holdshoe.jpeg);
     letter-spacing: 2px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     
     
 }
@@ -31,7 +33,7 @@ header.head{
  -webkit-box-shadow: 0px 11px 43px 5px rgba(250,247,249,1);
  -moz-box-shadow: 0px 11px 40px 5px rgba(250,247,249,1);
  box-shadow: 0px 1px 30px 3px rgba(250,247,249,1);
- 
+ z-index: 999;
 }
 
 nav.linkbox{
@@ -74,6 +76,7 @@ div.wrapper{
     align-items: center;
     padding: 5px;
     border-radius: 8px;
+    z-index: 1;
 }
 input.searchbar{
 
@@ -165,39 +168,80 @@ section.bg-section{
     background: linear-gradient(rgba(214, 204, 204, 0.1), rgba(212, 211, 203, 0.1)), url(../images/shoe4.jpeg) no-repeat no-repeat center center;
     background-size:cover;
     padding-top: 160px;
-    padding-bottom: 100px;
+    padding-bottom: 180px;
 
 }
 
 section.main{
-    margin: 40px 20px;
+    margin: 20px 10px;
 }
 
-div.head{
-
-}
 
 section.main > div.head > p{
     font-size: 30px;
+    font-weight: bold;
     border-bottom: 2px solid rgb(148,134,11);
-    text-shadow: 5px 0px 24px white;
+    text-shadow: 5px 6px 6px rgb(148,134,11);
+    margin-right: 10px;
+    color: whitesmoke;
 }
+
+i#arrow{
+    color:rgb(230, 230, 28) ;
+    float:right;
+      
+}
+
 div.line1{
     display: flex;
     justify-content: space-around;
+    width: 100%;
 }
 div.prod{
-    display: flex;  
-    background-color: honeydew;
-    border-radius: 10px;
+    display: flex; 
+    background : linear-gradient(rgba(253, 252, 252, 0.9), rgba(233,233,233,0.9));
+    border-left: 2px solid rgb(148,134,11);
+    border-bottom: 2px solid rgb(148,134,11);
+    margin: 10px;
+    box-shadow: 5px 0px 2px rgb(148,134,11);
 }
 
+div.img{
+    width:60%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
 div.price{
-    padding-top: 20px;
+    padding:5px;
+    width: 40%;
+    padding-top: 5px
 }
 div.price > p{
-    padding:5px;
+    letter-spacing: normal;
     justify-content: center;
+    text-align: left;
 }
+
+div.price > p s{
+    color: teal;
+}
+
+div.price > p > button{
+    box-shadow: 1px 0px 4px rgb(148,134,11);
+    background-color: /*rgb(228, 228, 17);*/gray;
+    border: 1px solid rgb(148,134,11);
+    border-radius: 3px;
+    color: white;
+}
+div.price > p > button b{
+  padding: 5px;
+}
+div.price > p > span{
+    text-decoration: underline;
+    color:white;
+    text-shadow: 3px 0px 4px black;
+} 
 
 
