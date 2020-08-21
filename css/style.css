@@ -184,12 +184,20 @@ section.main > div.head > p{
 }
 div.line1{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 div.prod{
-    display: flex;   
+    display: flex;  
     background-color: honeydew;
     border-radius: 10px;
+}
+
+div.price{
+    padding-top: 20px;
+}
+div.price > p{
+    padding:5px;
+    justify-content: center;
 }
 
 
