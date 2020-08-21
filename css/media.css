@@ -24,7 +24,7 @@
     }
 } 
 
-@media only screen and (min-width: 280px) and (max-width:426px){
+@media only screen and (min-width: 280px) and (max-width:500px){
     input.searchbar{
         width:200%
     }
@@ -53,7 +53,7 @@
     }
 
     footer p.center{
-        background-color: red;
+        
     }
 }
 
