@@ -4,8 +4,10 @@ body{
     margin: 0px;
     padding: 0px;
     background-color: white;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Playfair Display', serif;
     background-color: rgb(208, 211, 212);
+    letter-spacing: 2px;
+    
     
 }
 
@@ -167,5 +169,27 @@ section.bg-section{
 
 }
 
+section.main{
+    margin: 40px 20px;
+}
+
+div.head{
+
+}
+
+section.main > div.head > p{
+    font-size: 30px;
+    border-bottom: 2px solid rgb(148,134,11);
+    text-shadow: 5px 0px 24px white;
+}
+div.line1{
+    display: flex;
+    justify-content: space-between;
+}
+div.prod{
+    display: flex;   
+    background-color: honeydew;
+    border-radius: 10px;
+}
 
 
